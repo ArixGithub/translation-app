@@ -3,6 +3,7 @@ namespace Services
     public static class TranslationService 
     {
         public static Uri translationUri = new Uri("https://google-translate1.p.rapidapi.com/language/translate/v2");
+        public static string apiKey = "20af78d55cmshb69db86ace733b6p14e6cajsn638189f1946a";
 
         public static async Task<string> Translate(string textToTranslate, string languageCode)
         {

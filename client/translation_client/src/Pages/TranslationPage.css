@@ -1,0 +1,23 @@
+.translate_button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #069406;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.translate_button:disabled {
+    background-color: #326832;
+    cursor: not-allowed;
+}
+
+.text_area {
+    display: flex;
+    margin: 5px;
+}
+
+.language_name {
+    min-width: 70px;
+}
