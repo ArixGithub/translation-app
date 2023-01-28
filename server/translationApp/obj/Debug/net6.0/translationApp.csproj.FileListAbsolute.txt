@@ -7,6 +7,7 @@
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/ref/translationApp.dll
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/translationApp.pdb
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ariklerner/Documents/GitHub/ArixGithub/translation-app/server/translationApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
