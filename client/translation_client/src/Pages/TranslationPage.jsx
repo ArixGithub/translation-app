@@ -14,10 +14,10 @@ const TranslationPage = () => {
     try {
       const [spanishTranslation, frenchTranslation] = await Promise.all([
         translateApiCall(textToTranslate, "es", (error) => {
-          alert(error);
+          alert("Failed to translate text to spanish: " + error);
         }),
         translateApiCall(textToTranslate, "fr", (error) => {
-          alert(error);
+          alert("Failed to translate text to french: " + error);
         }),
       ]);
 
@@ -27,7 +27,7 @@ const TranslationPage = () => {
         setNumberOfTranslations((prevNum) => prevNum + 1);
       }
     } catch (error) {
-      alert(error);
+      alert("Error translating text: " + error);
     }
   }
 

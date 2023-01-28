@@ -16,7 +16,7 @@ namespace Services
                     RequestUri = translationUri,
                     Headers =
                     {
-                        { "X-RapidAPI-Key", "20af78d55cmshb69db86ace733b6p14e6cajsn638189f1946a" },
+                        { "X-RapidAPI-Key", apiKey },
                         { "X-RapidAPI-Host", "google-translate1.p.rapidapi.com" },
                     },
                     Content = new FormUrlEncodedContent(new Dictionary<string, string>
