@@ -3,7 +3,7 @@ export default async function translateApiCall(
   languageCode,
   handleError
 ) {
-  fetch(
+  return fetch(
     `/Translate?textToTranslate=${textToTranslate}&languageCode=${languageCode}`
   )
     .then((response) => {
